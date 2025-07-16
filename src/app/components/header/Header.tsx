@@ -3,12 +3,16 @@ import Link from "next/link";
 
 const Header = () => {
     return (
-        <header>
-            <nav>
-                <Link href="">option 1</Link>
-                <Link href="">option 2</Link>
-                <Link href="">option 3</Link>
+        <header className="bg-[#030303] text-[#F1EFEC] h-40 flex items-center justify-between px-[10%]">
+            <div>Logo</div>
+            <nav className="hidden md:flex gap-10 items-center">
+                <Link href="/">Home</Link>
+                <Link href="/about-me">About me</Link>
+                <Link href="/projects">Projects</Link>
+                <Link href="/skills">Skills</Link>
+                <Link href="/contact">Contact</Link>
             </nav>
+            <div>Mode</div>
         </header>
     );
 };
