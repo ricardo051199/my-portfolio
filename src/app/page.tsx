@@ -1,9 +1,9 @@
-import Projects from "./(pages)/projects/page";
+import Hero from "./(pages)/hero/page";
 
 export default function Home() {
   return (
-    <div>
-      <p>Home</p>
-    </div>
+    <main>
+      <Hero />
+    </main>
   );
 }
