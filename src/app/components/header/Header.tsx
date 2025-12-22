@@ -41,9 +41,9 @@ const Header = () => {
     };
 
     return (
-        <header className="fixed top-0 left-0 right-0 z-50 h-[10vh] flex items-center justify-between px-[10%]">
+        <header className="fixed top-0 left-0 right-0 z-50 h-[10vh] flex items-center justify-between px-[10%] bg-withe/80 dark:bg-black/80 backdrop-blur-md shadow-md">
             <Image
-                className="ligth:invert"
+                className="invert dark:invert-0"
                 src="/logo.png"
                 alt="Next.js logo"
                 width={100}
@@ -53,7 +53,7 @@ const Header = () => {
             <div className="flex gap-10">
                 <nav className="hidden md:flex gap-10 items-center">
                     {navItems.map((item) => (
-                        <Link key={item.href} href={item.href} className={`transition-colors ${ pathname === item.href ? 'text-red-600 dark:text-blue-400 font-semibold' : ''}`}>
+                        <Link key={item.href} href={item.href} className={`transition-colors ${ pathname === item.href ? 'text-blue-400 font-semibold' : ''}`}>
                             {item.name}
                         </Link>
 
