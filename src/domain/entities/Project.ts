@@ -1,5 +1,9 @@
 interface Project {
     id: number,
     name: string,
-    link: string
+    summary: string,
+    description: string,
+    tags: string[],
+    github?: string
+    demo?: string
 }

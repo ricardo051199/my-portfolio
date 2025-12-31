@@ -2,7 +2,7 @@ import { Button } from "@/app/components/ui/Button";
 
 const Hero = () => {
     return (
-        <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
+        <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 bg-slate-100 dark:bg-black">
             <div className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto text-center">
                     <p className="mb-4">Hi! I'm</p>

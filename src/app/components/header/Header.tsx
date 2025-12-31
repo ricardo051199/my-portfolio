@@ -46,8 +46,8 @@ const Header = () => {
                 className="invert dark:invert-0"
                 src="/logo.png"
                 alt="Next.js logo"
-                width={100}
-                height={50}
+                width={60}
+                height={30}
                 priority
             />
             <div className="flex gap-10">
