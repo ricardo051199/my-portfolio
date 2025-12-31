@@ -1,3 +1,5 @@
+import { Project } from "@/domain/entities/Project";
+
 export const ProjectsList: Project[] = [
   {
     id: 4,
