@@ -52,7 +52,7 @@ const Contact = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
                     <div>
                         <div className="space-y-6">
-                        {contactInfo.map((info, index) => (
+                        {contactInfo.map((info) => (
                             <div key={info.title} className="flex items-center gap-4">
                             <div className="w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0">
                                 <info.icon className="w-6 h-6 text-white" />
@@ -81,9 +81,7 @@ const Contact = () => {
                     <div>
                         <form onSubmit={handleSubmit} className="space-y-6">
                             <div>
-                                <label htmlFor="name" className="block mb-2 text-sm text-slate-700 dark:text-slate-300">
-                                Full Name
-                                </label>
+                                <label htmlFor="name" className="block mb-2 text-sm text-slate-700 dark:text-slate-300">Full Name</label>
                                 <Input
                                 id="name"
                                 type="text"
@@ -95,9 +93,7 @@ const Contact = () => {
                                 />
                             </div>
                             <div>
-                                <label htmlFor="email" className="block mb-2 text-sm text-slate-700 dark:text-slate-300">
-                                Email
-                                </label>
+                                <label htmlFor="email" className="block mb-2 text-sm text-slate-700 dark:text-slate-300">Email</label>
                                 <Input
                                 id="email"
                                 type="email"
@@ -109,9 +105,7 @@ const Contact = () => {
                                 />
                             </div>
                             <div>
-                                <label htmlFor="message" className="block mb-2 text-sm text-slate-700 dark:text-slate-300">
-                                Message
-                                </label>
+                                <label htmlFor="message" className="block mb-2 text-sm text-slate-700 dark:text-slate-300">Message</label>
                                 <Textarea
                                 id="message"
                                 value={formData.message}

@@ -35,7 +35,7 @@ const AboutMe = () => {
                     <p className="text-center mb-6">I have experience in backend and frontend development, where I integrate technologies such as artificial intelligence and blockchain to build innovative projects.</p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                    {features.map((feature, index) => (
+                    {features.map((feature) => (
                         <div key={feature.title} className="bg-withe dark:bg-zinc-900 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow">
                             <div className="w-12 h-12 rounded-lg flex items-center justify-center mb-4">
                                 <feature.icon className="w-6 h-6 text-[#393E46] dark:text-white" />

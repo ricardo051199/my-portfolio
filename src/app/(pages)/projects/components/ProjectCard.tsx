@@ -1,7 +1,8 @@
 'use client';
 
 import { Button } from '@/app/components/ui/Button';
-import { ExternalLink, Github } from 'lucide-react';
+import { Project } from '@/domain/entities/Project';
+import { ExternalLink } from 'lucide-react';
 
 const ProjectCard = ({ project }: { project: Project }) => {
     return (

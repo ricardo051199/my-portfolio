@@ -5,7 +5,7 @@ const Hero = () => {
         <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 bg-slate-100 dark:bg-black">
             <div className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto text-center">
-                    <p className="mb-4">Hi! I'm</p>
+                    <p className="mb-4">Hi! I&apos;m</p>
                     <h1 className="text-5xl md:text-7xl mb-6">Peláez Sarabia J. Ricardo</h1>
                     <p className="text-xl md:text-2xl mb-8">Systems Engineer</p>
                     <p className="max-w-2xl mx-auto mb-8">Passionate about software development, artificial intelligence, and blockchain. My drive is to create innovative technological solutions, explore the practical applications of AI, and leverage the potential of decentralized systems to build a more trustworthy and transparent digital future.</p>
